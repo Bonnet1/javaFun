@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Practice - Pt3</title>
+</head>
+<body>
+  <script>
+    let add7 = (a) => a + 7;
+    //alert( add7(4)); // should equal 11
+    let multiply = (a,b) => a * b;
+    //alert (multiply(3,4)) // should equal 12)
+    let capitalize = (txt) =>  {
+        //let lower = str.toLowerCase();
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    };
+    //alert (capitalize("sfdsiodsEETEGSD33253523"))
+    let lastLetter = (str) => {
+        let n = str.length;
+        return str.charAt(n-1);
+        //return n-1;
+    };
+    alert(lastLetter("abcd"))
+  </script>
+</body>
+</html>
